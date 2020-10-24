@@ -50,14 +50,16 @@ game :
 	
 	while ( plays <= 10 ) {
 		if ( (slot1 + slot2 + slot3) == 3 || (slot3 + slot6 + slot9) == 3 || (slot9 + slot8 + slot7) == 3
-		|| (slot1 + slot4 + slot7) == 3 || (slot1 + slot5 + slot9) == 3 || (slot3 + slot5 + slot7) == 3 ) {
+		|| (slot1 + slot4 + slot7) == 3 || (slot1 + slot5 + slot9) == 3 || (slot3 + slot5 + slot7) == 3
+		|| (slot2 + slot5 + slot8) == 3 || (slot4 + slot5 + slot6) == 3 ) }
 			Xwins++ ;
 			printf ( "Player 1 wins!\n" ) ;
 			printf ( "Play again? Y/N : " ) ;
 			goto end ;
 		}
 		else if ( (slot1 + slot2 + slot3) == 6 || (slot3 + slot6 + slot9) == 6 || (slot9 + slot8 + slot7) == 6
-		|| (slot1 + slot4 + slot7) == 6 || (slot1 + slot5 + slot9) == 6 || (slot3 + slot5 + slot7) == 6 ) {
+		|| (slot1 + slot4 + slot7) == 6 || (slot1 + slot5 + slot9) == 6 || (slot3 + slot5 + slot7) == 6
+		|| (slot2 + slot5 + slot8) == 6 || (slot4 + slot5 + slot6) == 6 ) }
 			Owins++ ;
 			printf ( "Player 2 wins!\n" ) ;
 			printf ( "Play again? Y/N : " ) ;
